@@ -731,18 +731,6 @@ img {
   margin-bottom: 16px;
 }
 
-.review-form-label {
-  font-weight: 400;
-  font-size: 12px;
-
-  /* line-height: 14px; */
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
-  display: flex;
-  flex-direction: column;
-}
-
 .review-form-textarea {
   width: 100%;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -756,7 +744,6 @@ img {
   /* line-height: 14px; */
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: #111111;
   background-color: transparent;
   display: block;
   outline: transparent;
@@ -767,6 +754,7 @@ img {
 .review-form-textarea:hover,
 .review-form-textarea:focus {
   border: 1px solid #4d5ae5;
+  border-color: #4d5ae5;
 }
 
 .review-wrapper-form-checkbox {
@@ -794,6 +782,7 @@ img {
   + .review-form-checkbox-label
   > .review-form-custom-checkbox {
   border-color: 1px solid rgba(46, 47, 66, 0.4);
+  border-color: #4d5ae5;
 }
 
 .review-form-custom-checkbox {
@@ -813,6 +802,7 @@ img {
 }
 
 .review-form-checkbox-icon {
+  top: 50%;
 }
 
 .review-form-policy-link {
