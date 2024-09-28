@@ -719,6 +719,12 @@ img {
   color: #111111;
 }
 
+.review-form-input:hover,
+.review-form-input:focus {
+  border: 1px solid #4d5ae5;
+  border-color: #4d5ae5;
+}
+
 .review-form-input-icon {
   position: absolute;
   top: 50%;
@@ -802,7 +808,6 @@ img {
 }
 
 .review-form-checkbox-icon {
-  top: 50%;
 }
 
 .review-form-policy-link {
